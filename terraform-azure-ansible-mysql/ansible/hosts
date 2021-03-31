@@ -1,0 +1,11 @@
+[mysqlserver]
+10.80.4.10
+
+[app:children]
+mysqlserver
+
+[app:vars]
+ansible_user=analuol
+ansible_ssh_pass=pwd123
+ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'

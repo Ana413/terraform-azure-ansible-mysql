@@ -1,0 +1,10 @@
+mysql:
+  root_db_password: "pwd123"
+  user_app: analuol
+  password_app: analuol
+  db_name: analuol
+  hosts:
+    - "10.80.4.12"
+    - 127.0.0.1
+    - ::1
+    - localhost
